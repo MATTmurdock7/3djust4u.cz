@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Profesionální 3D tisk na míru - kvalitní výrobky za dostupné ceny. Podívejte se na náš e-shop nebo si stáhněte zdarma modely.">
+    <title>3DJust4U - Profesionální 3D Tisk</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(90deg, #4CAF50, #66BB6A);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        nav {
+            background: #333333;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background: #4CAF50;
+        }
+        section {
+            max-width: 1200px;
+            margin: auto;
+            padding: 2rem;
+        }
+        .hero {
+            text-align: center;
+            padding: 2rem;
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .cta {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 5px;
+            font-size: 1.2rem;
+        }
+        .cta a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        .product {
+            background: #f9f9f9;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product h3 {
+            padding: 1rem;
+        }
+        footer {
+            background: #333333;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .video-presentation {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .video-presentation iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+            border-radius: 10px;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        .social-links a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background: #333333;
+            color: white;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            transition: background 0.3s;
+        }
+        .social-links a:hover {
+            background: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>3DJust4U - Profesionální 3D Tisk</h1>
+        <p>Vytváříme produkty, které oživí vaše nápady!</p>
+    </header>
+    <nav>
+        <a href="#services">Služby</a>
+        <a href="#models">Modely zdarma</a>
+        <a href="#shop">E-shop</a>
+        <a href="#about">Zajímavosti</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+    <section class="hero">
+        <img src="hero-image.jpg" alt="Inspirativní produkty z 3D tisku">
+    </section>
+    <section id="services">
+        <h2>Naše služby</h2>
+        <p>Nabízíme profesionální 3D tisk na míru. Od prototypů až po finální produkty - vše na dosah vaší ruky.</p>
+        <div class="cta">
+            <a href="#calc">Vyzkoušejte naši kalkulaci nyní!</a>
+        </div>
+    </section>
+    <section id="models">
+        <h2>Zdarma 3D modely ke stažení</h2>
+        <ul>
+            <li><a href="https://www.thingiverse.com" target="_blank">Thingiverse</a></li>
+            <li><a href="https://www.myminifactory.com" target="_blank">MyMiniFactory</a></li>
+            <li><a href="https://cults3d.com" target="_blank">Cults3D</a></li>
+        </ul>
+    </section>
+    <section id="shop">
+        <h2>E-shop</h2>
+        <div class="products">
+            <div class="product">
+                <img src="product1.jpg" alt="Figurka">
+                <h3>Figurka</h3>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Kryt na telefon">
+                <h3>Kryt na telefon</h3>
+            </div>
+            <div class="product">
+                <img src="product3.jpg" alt="Mechanická součástka">
+                <h3>Součástka</h3>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2>Zajímavosti o 3D tisku</h2>
+        <p>Věděli jste, že 3D tisk dokáže vytvořit domy, jídlo i biologické orgány? Přinášíme vám ty nejnovější trendy a technologie.</p>
+    </section>
+    <section class="video-presentation">
+        <h2>Video Prezentace</h2>
+        <iframe src="video.mp4" title="Inspirace pro 3D tisk"></iframe>
+    </section>
+    <footer>
+        <p>&copy; 2024 3DJust4U. Váš partner v oblasti 3D tisku.</p>
+        <div class="social-links">
+            <a href="https://instagram.com" target="_blank">I</a>
+            <a href="https://facebook.com" target="_blank">F</a>
+            <a href="mailto:contact@3djust4u.eu">@</a>
+        </div>
+    </footer>
+</body>
+</html>
